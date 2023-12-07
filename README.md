@@ -25,7 +25,7 @@ $$\sigma=\sqrt{\frac{N_{year}}{N-1}\sum_{j=1}^N(r_j-\bar{r})^2},$$
 $$S=\frac{r-r_f}{\sigma},$$
 其中 $r_f$ 为无风险利率.
 ### 最大回撤
-最大回撤 $D=\max_{i<j}\{(V_i-V_j)/V_i\}\cdot100\%$.
+最大回撤 $D=max_{i<j}\{(V_i-V_j)/V_i\}\cdot100\%$.
 ### 收益分解
 根据 **CAPM 模型**, 我们计算投资组合的 $\beta$ 与 $\alpha$ 值.
 $$\beta=\frac{\sum(r_j-\bar{r})(r_{m,j}-\bar{r}_m)}{\sum(r_{m,j}-\bar{r}_m)^2},$$
